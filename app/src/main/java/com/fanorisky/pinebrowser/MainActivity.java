@@ -706,12 +706,6 @@ public class MainActivity extends AppCompatActivity {
         }
 
         @Override
-        public void onReceivedTitle(WebView view, String title) {
-            Tab tab = tabs.get(activeTabId);
-            if (tab != null && title != null) tab.title = title;
-        }
-
-        @Override
         public boolean onRenderProcessGone(WebView view, RenderProcessGoneDetail detail) {
             Toast.makeText(MainActivity.this, "Web page renderer crashed; recovering tab.", Toast.LENGTH_LONG).show();
             Tab tab = tabs.get(activeTabId);
