@@ -31,7 +31,7 @@ import android.webkit.WebResourceResponse;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
-import android.webkit.WebViewClient.RenderProcessGoneDetail;
+import android.webkit.RenderProcessGoneDetail;
 import android.widget.EditText;
 import android.widget.FrameLayout;
 import android.widget.ImageButton;
